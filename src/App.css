@@ -36,3 +36,57 @@
     transform: rotate(360deg);
   }
 }
+.NavBar{
+  padding: 2px;
+  background-color: black;
+  display: flex;
+  color: white;
+}
+.Logo{
+  display: flex;
+  margin: auto 10px;
+  height: 60px;
+}
+.Logo> img{
+  margin: auto 10px;
+}
+.Logo> h2{
+  margin: auto 10px;
+}
+input{
+  height: 30px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: 30px;
+}
+.card-content{
+  display: inline-table;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 300px;
+  height: 650px;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 10px 10px;
+  font-size: 13px;
+  padding: 10px;
+ 
+}
+.card-content> img{
+  margin: 10px 40px;
+  width: 200px;
+}
+p{
+  text-align: justify;
+}
+#button{
+  background-color: rgb(180, 180, 175);
+  width: 100px;
+  height: 50px;
+  border-radius: 25px;
+  border-style: none;
+}
+#button:hover{
+  background-color: rgb(209, 204, 204);
+}
+
