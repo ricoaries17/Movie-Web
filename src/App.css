@@ -60,11 +60,11 @@ input{
   margin-left: auto;
   margin-right: 30px;
 }
-.card-content{
+.card-content-active{
   display: inline-table;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   width: 300px;
-  height: 650px;
+  height: 480px;
   box-sizing: border-box;
   overflow: hidden;
   margin: 10px 10px;
@@ -72,21 +72,50 @@ input{
   padding: 10px;
  
 }
-.card-content> img{
+.card-content-active> img{
   margin: 10px 40px;
   width: 200px;
+  
 }
-p{
+.card-content-deactive> img{
+  display: none;
+
+}
+#list>p{
   text-align: justify;
 }
-#button{
+.button{
+  margin: 2px auto;
   background-color: rgb(180, 180, 175);
   width: 100px;
   height: 50px;
   border-radius: 25px;
   border-style: none;
 }
-#button:hover{
-  background-color: rgb(209, 204, 204);
-}
 
+.active{
+  margin:10px 10px;
+  text-align: center;
+}
+.deactive{
+  display:none;
+}
+#Home:hover{
+  cursor: pointer;
+  color: aqua;
+}
+#detail{
+  margin: 20px auto;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 90%;
+  height: 550px;
+  padding : 30px;
+}
+#detail>img{
+  width :800px;
+}
+#detail>p{
+  text-align: center;
+  align-items: center;
+
+}
